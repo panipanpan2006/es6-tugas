@@ -69,10 +69,10 @@ console.log("Mahasiswa terbaik:", getTopStudent(students).name);
 
 // Template Literal dan Output Rapi
 const avgScore = getAverage(students).toFixed(2);
-const top = getTopStudent(students);
+const topStudentLangkah8 = getTopStudent(students);
 console.log(`\nRingkasan Nilai Mahasiswa
 📊 Rata-rata         : ${avgScore}
-🏆 Mahasiswa Terbaik : ${top.name} (${top.score})
+🏆 Mahasiswa Terbaik : ${topStudentLangkah8.name} ${topStudentLangkah8.score}
 ✅ Jumlah Lulus      : ${getPassed(students).length}/${students.length}
 `);
 
